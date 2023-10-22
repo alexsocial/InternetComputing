@@ -1,0 +1,23 @@
+/* Aligns header to center. */
+header{
+        text-align: center;
+        height: 2.5rem; 
+}
+/* Sets body color to a grayish color. */
+body {
+    background-color: rgb(146, 155, 163);
+}
+/*Stylize the div! (Mostly border to make it look nice with an outset, steel blue on slate gray on gray.*/
+.myDiv{
+    border:lightsteelblue 5px outset;
+    background-color:lightslategray;
+}
+/* Aligns footer to center. Along with this, keeps it at bottom of page
+and keeps absolute position with max width and specific height to deviate from page. */
+footer{
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem; 
+}
